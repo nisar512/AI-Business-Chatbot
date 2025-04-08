@@ -1,0 +1,100 @@
+Starting application...
+Starting application...
+HEAD http://elasticsearch:9200/ [status:N/A duration:0.110s]
+Node <AiohttpHttpNode(http://elasticsearch:9200)> has failed for 1 times in a row, putting on 1 second timeout
+Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_async_transport.py", line 264, in perform_request
+    resp = await node.perform_request(
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_node/_http_aiohttp.py", line 228, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ClientConnectorDNSError(Cannot connect to host elasticsearch:9200 ssl:default [nodename nor servname provided, or not known])
+HEAD http://elasticsearch:9200/ [status:N/A duration:0.003s]
+Node <AiohttpHttpNode(http://elasticsearch:9200)> has failed for 2 times in a row, putting on 2 second timeout
+Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_async_transport.py", line 264, in perform_request
+    resp = await node.perform_request(
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_node/_http_aiohttp.py", line 228, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ClientConnectorDNSError(Cannot connect to host elasticsearch:9200 ssl:default [nodename nor servname provided, or not known])
+HEAD http://elasticsearch:9200/ [status:N/A duration:0.003s]
+Node <AiohttpHttpNode(http://elasticsearch:9200)> has failed for 3 times in a row, putting on 4 second timeout
+Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_async_transport.py", line 264, in perform_request
+    resp = await node.perform_request(
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_node/_http_aiohttp.py", line 228, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ClientConnectorDNSError(Cannot connect to host elasticsearch:9200 ssl:default [nodename nor servname provided, or not known])
+HEAD http://elasticsearch:9200/ [status:N/A duration:0.005s]
+Node <AiohttpHttpNode(http://elasticsearch:9200)> has failed for 4 times in a row, putting on 8 second timeout
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x105b8d670>
+Starting application...
+HEAD http://localhost:9200/ [status:N/A duration:0.001s]
+Node <AiohttpHttpNode(http://localhost:9200)> has failed for 1 times in a row, putting on 1 second timeout
+Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_async_transport.py", line 264, in perform_request
+    resp = await node.perform_request(
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_node/_http_aiohttp.py", line 228, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ClientConnectorError(Cannot connect to host localhost:9200 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 9200, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 9200)])
+HEAD http://localhost:9200/ [status:N/A duration:0.001s]
+Node <AiohttpHttpNode(http://localhost:9200)> has failed for 2 times in a row, putting on 2 second timeout
+Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_async_transport.py", line 264, in perform_request
+    resp = await node.perform_request(
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_node/_http_aiohttp.py", line 228, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ClientConnectorError(Cannot connect to host localhost:9200 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('127.0.0.1', 9200), [Errno 61] Connect call failed ('::1', 9200, 0, 0)])
+HEAD http://localhost:9200/ [status:N/A duration:0.001s]
+Node <AiohttpHttpNode(http://localhost:9200)> has failed for 3 times in a row, putting on 4 second timeout
+Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_async_transport.py", line 264, in perform_request
+    resp = await node.perform_request(
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_node/_http_aiohttp.py", line 228, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ClientConnectorError(Cannot connect to host localhost:9200 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 9200, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 9200)])
+HEAD http://localhost:9200/ [status:N/A duration:0.001s]
+Node <AiohttpHttpNode(http://localhost:9200)> has failed for 4 times in a row, putting on 8 second timeout
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x107748550>
+Starting application...
+HEAD http://localhost:9200/ [status:N/A duration:0.003s]
+Node <AiohttpHttpNode(http://localhost:9200)> has failed for 1 times in a row, putting on 1 second timeout
+Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_async_transport.py", line 264, in perform_request
+    resp = await node.perform_request(
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_node/_http_aiohttp.py", line 228, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ClientOSError([Errno 54] Connection reset by peer)
+HEAD http://localhost:9200/ [status:N/A duration:0.002s]
+Node <AiohttpHttpNode(http://localhost:9200)> has failed for 2 times in a row, putting on 2 second timeout
+Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_async_transport.py", line 264, in perform_request
+    resp = await node.perform_request(
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_node/_http_aiohttp.py", line 228, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ClientOSError([Errno 54] Connection reset by peer)
+HEAD http://localhost:9200/ [status:N/A duration:0.002s]
+Node <AiohttpHttpNode(http://localhost:9200)> has failed for 3 times in a row, putting on 4 second timeout
+Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_async_transport.py", line 264, in perform_request
+    resp = await node.perform_request(
+  File "/Users/macbookpro/Library/Python/3.9/lib/python/site-packages/elastic_transport/_node/_http_aiohttp.py", line 228, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ServerDisconnectedError(Server disconnected)
+HEAD http://localhost:9200/ [status:N/A duration:0.002s]
+Node <AiohttpHttpNode(http://localhost:9200)> has failed for 4 times in a row, putting on 8 second timeout
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x10e439610>
+Starting application...
+HEAD http://localhost:9200/ [status:200 duration:0.006s]
+[2m2025-04-08T18:37:41.034757Z[0m [[32m[1minfo     [0m] [1mConnected to Selenium Docker container at http://localhost:4444/wd/hub[0m [[0m[1m[34mapp[0m][0m

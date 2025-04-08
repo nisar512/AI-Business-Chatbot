@@ -6,7 +6,8 @@ from core.config import settings
 from db.session import get_db, engine
 from db.elasticsearch import elastic_client
 from tasks.selenium_tasks import SeleniumService
-from routes.api.v1 import users, search
+from models.userModel.user import Base
+# from routes.api.v1 import users, search
 import logging
 
 # Initialize logging
