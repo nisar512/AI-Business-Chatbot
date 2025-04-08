@@ -1,4 +1,4 @@
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     POSTGRES_URL: str = "postgresql+asyncpg://user:password@db:5432/dbname"
