@@ -1,0 +1,13 @@
+fastapi[all]
+uvicorn
+python-dotenv
+sqlalchemy[asyncio]
+asyncpg
+elasticsearch[async]
+selenium
+webdriver-manager
+psycopg2-binary
+python-multipart
+passlib[bcrypt]
+python-jose[cryptography]
+celery
